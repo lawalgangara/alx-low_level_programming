@@ -1,5 +1,8 @@
 #include <stdio.h>
-
+/**
+ * main - to print a size of varible usin  C  size
+ * Return: 0
+ */
 int main(void)
 {
 	char a;
