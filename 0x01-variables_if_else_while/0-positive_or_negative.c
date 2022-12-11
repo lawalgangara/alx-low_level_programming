@@ -5,12 +5,9 @@
  * main - main entry point
  *
  * main - main funtion to generate a random number
- * :%s/\s\+$//
+ *
  * return: (0)
- *
- *
- */
-
+ **/
 int main(void)
 {
 	int n;

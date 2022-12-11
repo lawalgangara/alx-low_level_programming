@@ -11,34 +11,25 @@
 int main(void)
 {
 	int n;
-	int num;
-	int m;
+	int x;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	m = n % 10;
-	if (n > 5)
-		printf("the last digit of the %d is %d and is greater than 5\n", n, m);
-	if (m == 0)
-		printf(" last digit of %d is %d and is 0\n, n, m")
-			if (m < 6 && m != 0)
-				printf("last digit of %d is %d and is less than 6 and not 0\n, n, m");
-				srand(time(0));
-				n = rand() - RAND_MAX / 2;
-				printf("last digit of %d is ", n);
-				num = n % 10;
-				if (num > 5)
-				{
-					printf("%d and is greater than 5\n", num);
-				}
-				else if ((num < 6) && (num < 0))
-				{
-					printf("%d and is less than 6 and not 0\n", num);
-				}
-				else
-				{
-					printf("%d and is 0\n", num);
-				}
+	x = n % 10;
+		printf("last digit of %d is %d", n, x")
+			if(x > 5)
+			{
+				printf("and is greater than 5");
+			}
+	if (x == 0)
+	{
+		printf("and is 0");
+	}
+			if (x < 6 && x ! = 0 )
+			{
+				printf("and is less than 6 and not 0");
+			}
+			printf("\n")
 				return (0);
 }
 
