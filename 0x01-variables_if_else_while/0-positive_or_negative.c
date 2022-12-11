@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - main entry point
- * :%s|\s\+$||
+ * :%s/\s\+$//
  *
  * main - main funtion to generate a random number
  * return: (0)
