@@ -2,13 +2,16 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - main function to generate a rondom number
+ * main - main entry point
+ * :%s|\s\+$||
  *
- * return: always 0 (success)
+ * main - main funtion to generate a random number
+ * return: (0)
+ *
  *
  */
 
-int main(void) / main main
+int main(void)
 {
 	int n;
 
