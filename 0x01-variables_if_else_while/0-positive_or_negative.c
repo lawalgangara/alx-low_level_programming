@@ -3,11 +3,10 @@
 #include <stdio.h>
 
 /**
- * main - main entry point
+ * main - This program will assign a random number to the variale n
+ * :%s/\s\+&//e
  *
- * main - main funtion to generate a random number
- *
- * return: (0)
+ * return: 0
  */
 int main(void)
 {
