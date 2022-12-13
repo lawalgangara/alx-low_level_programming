@@ -6,11 +6,12 @@
  */
 int print_last_digit(int n)
 {
-	int lastdigit = 10;
-	char letter;
-
-	while (lastdigir-- <= 10)
+	lastdigit = n % 10;
+	while (n >= 10)
 	{
-		for (letter = 'a'; letter <= 'z'; letter--)
-			-putchar(letter);
+		n = n / 10;
+	}
+	firstdigit = n;
+	_putchar("first digit = %d and last digit = %d. firstdigit, lastdigit);
 		return (0);
+}
