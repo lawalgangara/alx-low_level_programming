@@ -3,7 +3,7 @@
 /**
  * main - print _putchar
  * is writted by Lawal Gangara
- * return: 0
+ * Return: 0
  */
 
 int main(void)
