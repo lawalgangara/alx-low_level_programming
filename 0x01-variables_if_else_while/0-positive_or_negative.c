@@ -3,11 +3,12 @@
 #include <stdio.h>
 
 /**
- * main - main This program will assign a random number to the variale n
+ * main - This program will assign a random number to the variale n
  *
  * return: 0
  */
-void int main(void)
+
+int main(void)
 {
 	int n;
 
