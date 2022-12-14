@@ -1,10 +1,7 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 /**
- * main - entry point
- *
  * main - main function to generate a random number
  * Return: always 0 (success)
  */
