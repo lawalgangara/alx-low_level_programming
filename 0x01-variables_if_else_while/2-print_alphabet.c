@@ -10,8 +10,6 @@ int main(void)
 {
 	int ch = 'a';
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
 	while (ch <= 'z')
 	{
 		putchar(ch);
