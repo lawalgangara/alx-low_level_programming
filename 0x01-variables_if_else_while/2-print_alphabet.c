@@ -8,11 +8,15 @@
  */
 int main(void)
 {
-	int n;
+	int ch = 'a';
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	for (n = 'a'; n <= 'z'; n++)
-		-putchar(n);
-	-putchar('\n')
-		return (0);
+	while (ch <= 'z')
+	{
+		putchar(ch);
+		ch++;
+	}
+	putchar('\n');
+	return (0);
+}
