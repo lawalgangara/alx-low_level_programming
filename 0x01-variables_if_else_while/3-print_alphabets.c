@@ -14,6 +14,11 @@ int main(void)
 		putchar(ch);
 		ch++;
 	}
+	while (CH <= 'Z')
+	{
+		putchar(CH);
+		ch++;
+	}
 	putchar('\n');
 	return (0);
 }
