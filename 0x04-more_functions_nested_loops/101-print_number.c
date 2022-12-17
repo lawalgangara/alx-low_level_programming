@@ -1,31 +1,19 @@
 #include <stdio.h>
 /**
- * main - a function that prints an integer.
+ * print_number - Prints an integer.
+ * @n: The integer to be printed.
  * Return: Always 0
  */
-int main(void)
+void print_number(int n)
 {
-	int i, j;
+	unsigned int num = n;
 
-	for (i = 0; i < 100; i++)
+	if (n < 0)
 	{
-		for (j = 0; j < 100; j++)
-		{
-			if (i < j)
-			{
-				putchar((i / 10) + 48);
-				putchar((i / 10) + 48);
-				putchar(' ');
-				putchar((j / 10) + 48);
-				putchar((j % 10) + 48);
-				if (i != 98 || j != 99)
-				{
-					putchar(',');
-					putchar(' ');
-				}
-			}
-		}
+		putchar('-');
+		num = -num;
 	}
-	putchar('\n');
-	return (0);
+	if ((num / 10) > 0)
+		print_number(num / 10);
+	putchar((num % 10) + '0');
 }
