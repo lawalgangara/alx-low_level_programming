@@ -1,4 +1,4 @@
-#include "main.h"
+#include "stdio.h"
 /**
  * main - entry point
  * Description: prints the numbers 1 - 100 w/
@@ -11,9 +11,9 @@
 
 int main(void)
 {
-	i = 0;
+	int i;
 
-	for (unsigned int i = 1; i <= 100; i++)
+	for (i = 1; i <= 100; i++)
 	{
 		 if (i % 15 == 0)
 		 {
