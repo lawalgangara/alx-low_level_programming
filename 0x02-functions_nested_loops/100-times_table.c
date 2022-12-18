@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * print_times_table - a function that prints the n times table, starting with 0
  * @n: Integer type number
@@ -11,7 +11,7 @@ void print_times_table(int n)
 		return;
 	while (x <= n)
 	{
-		for (y = 0; y <= n; y++)
+		for (i = 0; i <= n; i++)
 		{
 			j = x * i;
 			if (j > 99)
@@ -33,7 +33,7 @@ void print_times_table(int n)
 				_putchar(j + '0');
 			}
 			else
-				_putchar(z + '0');
+				_putchar(j + '0');
 			if (i != n)
 			{
 				_putchar(',');
