@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include <stdio.h>
 /**
  * main - entry point
  * Description: prints the numbers 1 - 100 w/
@@ -17,20 +17,19 @@ int main(void)
 	{
 		 if (i % 15 == 0)
 		 {
-			 printf("FizzBuzz\n");
+			 printf("FizzBuzz");
 		 }
 		 else if (i % 3 == 0)
 		 {
-			 printf("Fizz\n");
+			 printf("Fizz");
 		 }
 		 else if (i % 5 == 0)
 		 {
-			  printf("Buzz\n");
+			  printf("Buzz");
 		 }
 		 else
 		 {
 			 printf("%u\n", i);
 		 }
 	 }
-		 return (0);
 }
