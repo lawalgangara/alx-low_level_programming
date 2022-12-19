@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * reset_to_98 - a function that takes a pointer to an int
- * @n: integer to update
- * Return: Always 0.
- *
+ * reset_to_98 - to undate the value of var using pointer
+ * @n: int to return
+ * Return: 0
  */
 void reset_to_98(int *n)
 {
