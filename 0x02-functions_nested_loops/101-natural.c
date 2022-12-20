@@ -5,15 +5,13 @@
  */
 int main(void)
 {
-	int n, i = 0;
+	int i, sum = 0;
 
-	for (n = 3; n < 1024; n++)
+	for (i = 0; i < 1024; i++)
 	{
-		if ((n % 3 == 0) || (n % 5 == 0))
-		{
-			i = i + n;
-		}
+		if ((i % 3) == 0 || (i % 5) == 0)
+			sum += i;
 	}
-	printf("%d\n", s);
+	printf("%d\n", sum);
 	return (0);
 }
