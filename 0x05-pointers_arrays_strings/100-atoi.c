@@ -1,4 +1,3 @@
-#include "holberton.h"
 #include "main.h"
 /**
  * _atoi - convers a string to an int
