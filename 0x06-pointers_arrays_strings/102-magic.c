@@ -4,7 +4,7 @@
  * you are not allowed to modify p
  * only one statement
  * @n: Integer value
- * you are not allowed to code anything else than this line of code
+ * _magic - Magic Number
  * Return: Always o success
  */
 int main(void)
